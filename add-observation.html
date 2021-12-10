@@ -67,15 +67,15 @@
             <label>Date Observed<span class="required">*</span></label>
             <input type="date" name="date_observed" required >
             <label>Notes</label>
-            <textarea id="observation_notes" rows="3" id="notes" name="notes"></textarea>
+            <textarea id="observation_notes" rows="3" id="notes" name="notes" placeholder= "Notes about observation..."></textarea>
           </fieldset> 
           
           <fieldset>
             <legend>Location</legend>
             <label>Latitude</label><span class="required">* <label id="lat_error"></label></span>
-            <input type="text" name="lat" id="lat"  required >
+            <input type="text" name="lat" placeholder= "43.7955" id="lat"  required >
             <label>Longitude</label><span class="required">*<label id="lon_error"></label></span>
-            <input type="text" name="lon" id="lon" required >
+            <input type="text" name="lon" placeholder= "-79.3496" id="lon" required >
             <input type="checkbox" name="share_location" /><span>
               Share location information (i.e., it's ok to make this
               public)</span>
@@ -84,9 +84,9 @@
             <fieldset>
               <legend>Photo</legend>
               <label>Photographer Name</label>
-              <input id="observation_input" type="text" name="photographer_name" maxlength="100" >
+              <input id="observation_input" type="text" name="photographer_name" placeholder= "Bikash Shrestha" maxlength="100" >
               <label>Photographer Email</label>
-              <input id="observation_input" type="text" name="photographer_email" >
+              <input id="observation_input" type="text" name="photographer_email" placeholder= "sthabkash@gmail.com" >
               <label>Photo</label>
               <input type="file" id="photo" name="photo">
               <label>License(<a href="https://creativecommons.org/choose/">help on choosing a license</a>)</label>
